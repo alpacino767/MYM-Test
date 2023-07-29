@@ -1,0 +1,5269 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.body-bg{
+  background-color: #f0f0f0;
+}
+
+.App {
+  font-size: 'Inter', sans-serif;
+  background-color: #f0f0f0;
+}
+
+.App-1 {
+  background-color: #F9F4E7;
+  overflow: hidden !important;
+}
+
+.App-2 {
+  background-color: white;
+  overflow: hidden !important;
+  margin-top: -14rem;
+  padding-top: 4rem;
+}
+.image-container {
+  margin-top: 30px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.image-card {
+  max-width: 900px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.image-card img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+}
+
+.image-details {
+  padding: 16px;
+}
+
+.image-details h2 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.image-details p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+
+
+.navigation {
+  padding-top: 20px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 3.5rem;
+}
+.alert {
+  color: purple;
+  padding-left: 17rem;
+}
+.danger{
+  color: red;
+}
+
+
+.nav-job {
+  padding-left: 1.3rem;
+  padding-right: 3rem;
+  font-family: 'Playfair Display';
+
+}
+.btn-6{
+    
+      background-color: #4a1bb6;
+      color: #FFFFED;
+      border: none;
+      border-radius: 5px;
+      height: 100%;
+      font-size: 20px;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 2rem;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      margin-left: 1rem;
+
+}
+.nav-reg {
+  margin-left: -2.7rem;
+  padding-right: 10rem;
+  color: white;
+
+}
+
+.nav-2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 21px;
+  padding-right: 3rem;
+  font-weight: 300;
+  color: #3c2929f7;
+  line-height: 30px;
+
+}
+
+.navigation-inner {
+  padding-top: 20px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0rem;
+}
+
+.fib {
+  font-family: 'Inter', sans-serif;
+  color: black;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.f1 {
+  color: black;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.f2 {
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.btn-2 {
+  /* font-family: 'Lato', sans-serif ; */
+  background-color: #4a1bb6;
+  color: #FFFFED;
+  border: none;
+  border-radius: 5px;
+  height: 100%;
+  font-size: 24px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: -0.5rem;
+  padding-bottom: -0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.p1 {
+  font-family: 'Inter', sans-serif;
+}
+
+.hero {
+  width: 76%;
+  height: auto;
+}
+
+.container {
+  width: 100px;
+  position: relative;
+  height: 500px;
+  left: 54rem;
+  bottom: 35rem;
+  width: 700px;
+  position: relative;
+  height: 500px;
+  left: 51rem;
+  bottom: 32rem;
+}
+
+.first-ratings {
+  display: flex;
+  align-items: center;
+  padding-left: 6.5rem;
+  padding-top: 8rem;
+}
+
+.R1 {
+  font-family: 'Inter', sans-serif;
+  color: #3c2929f7;
+  font-size: 21px;
+  padding-left: 1rem;
+  font-weight: 300;
+}
+
+.head1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 61px;
+  padding-left: 6rem;
+  margin-top: 0rem;
+}
+
+.head2 {
+  font-family: 'Inter', sans-serif;
+  padding-left: 6rem;
+  font-size: 20px;
+  color: #3c2929f7;
+  margin-top: -3.5rem;
+  font-weight: 100;
+}
+
+.links {
+  display: flex;
+  padding-left: 6rem;
+  align-items: center;
+}
+
+.view {
+  font-family: 'Inter', sans-serif;
+  padding-left: 3rem;
+  text-decoration: underline;
+  color: #4a1bb6;
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 600;
+
+}
+
+.mark {
+  display: flex;
+  flex-direction: row;
+  padding-left: 6rem;
+  align-items: center;
+  font-size: 12px;
+}
+
+.free {
+  padding-left: 1rem;
+}
+
+.card {
+  font-family: 'Inter', sans-serif;
+  color: #3c2929f7;
+  font-size: 19px;
+  font-weight: 100;
+  padding-left: 1rem;
+}
+
+.temp {
+  font-family: 'Inter', sans-serif;
+  color: #3c2929f7;
+  font-size: 19px;
+  font-weight: 100;
+  padding-left: 1rem;
+
+}
+
+.sv {
+  padding-left: 1rem;
+}
+
+.three {
+  display: flex;
+  flex-direction: row;
+  padding-left: 6rem;
+  font-family: 'Inter', sans-serif;
+  ;
+  align-items: center;
+}
+
+.fib2 {
+  font-family: 'Inter', sans-serif;
+  color: #4a1bb6;
+  font-size: 21px;
+  font-weight: 600;
+  padding-left: 6rem;
+}
+
+.head-3 {
+  padding-left: 5.6rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 42px;
+}
+
+.time {
+  font-weight: 100;
+  font-size: 20px;
+  padding-right: 7rem;
+  line-height: 1.6rem;
+}
+
+.all {
+  font-weight: 100;
+  font-size: 20px;
+  padding-right: 8rem;
+  line-height: 1.5rem;
+}
+
+.cus {
+  font-weight: 100;
+  font-size: 20px;
+  padding-right: 9rem;
+  line-height: 1.5rem;
+}
+
+.btn-3 {
+  background-color: white;
+  color: #4a1bb6;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: -0.5rem;
+  padding-bottom: -0.5rem;
+  font-weight: 600;
+}
+
+.container-1 {
+  background-color: #3b01bfe8;
+  display: flex;
+  padding-left: 0rem;
+  margin-left: 6rem;
+  margin-right: 8rem;
+  padding-top: 4rem;
+  padding-bottom: 0rem;
+  margin-top: 0rem;
+  border-radius: 11px;
+}
+
+.pic {
+  position: relative;
+  width: 700px;
+  right: 4rem;
+  top: 0.5rem;
+}
+
+.c1 {
+  
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    padding-left: 2.5rem;
+    margin-top: 3.5rem;
+    position: relative;
+    top: 1rem;
+}
+
+
+
+.c2 {
+  color: white;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 2rem;
+  font-family: 'Inter', sans-serif;
+  padding-left: 2.5rem;
+  padding-right: 8rem;
+}
+
+.button {
+  padding-left: 2.5rem;
+}
+
+.c3 {
+  font-size: 19px;
+}
+
+.container-2 {
+  background-color: white;
+  border: 1px solid rgba(31, 28, 28, 0.55);
+  width: 27rem;
+  border-radius: 5px;
+  margin-top: 5rem;
+
+}
+
+.reviews {
+  display: flex;
+  padding-left: 5rem;
+  padding-top: 5rem;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: space-around;
+
+}
+
+.r-main {
+  padding-left: 1.5rem;
+}
+
+.c-head {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.name {
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  color: #4a1bb6;
+  font-weight: 600;
+  font-size: 19px;
+  left: 1.5rem;
+  top: 2rem;
+}
+
+.money {
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  top: 3.5rem;
+  right: 7rem;
+}
+
+.user {
+  padding-left: 1rem;
+  padding-top: 2.5rem;
+}
+
+.c-body {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 1.6rem;
+  padding-left: 1rem;
+
+}
+
+.btn-4 {
+  background-color: white;
+  border: 0.5px solid rgba(31, 28, 28, 0.55);
+  border-radius: 2px;
+  color: #4a1bb6;
+  font-weight: 600;
+  font-size: 19px;
+  padding-left: 6.5rem;
+  padding-right: 6.5rem;
+  margin-bottom: 2rem;
+}
+
+.rev {
+  padding-left: 1.5rem;
+}
+
+.rev-1 {
+  left: -7.5rem;
+}
+
+.footer {
+  background-color: #F9F4E7;
+  overflow: hidden !important;
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  margin-top: 6rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.f-one {
+  padding-left: 7rem;
+}
+
+.f-two {
+  padding-left: 4rem;
+}
+
+.f-three {
+  padding-left: 4rem;
+}
+
+.f-four {
+  padding-left: 4rem;
+}
+
+.f-five {
+  padding-left: 4rem;
+}
+
+.foot {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 1.6rem;
+  list-style: none;
+}
+
+.premade {
+  width: 25rem;
+}
+
+.bighead {
+  padding-left: 2.5rem;
+}
+
+.heart {
+  color: rgba(31, 29, 29, 0.657);
+}
+
+.space {
+  line-height: 2rem;
+}
+
+.container-3 {
+  display: none;
+}
+
+
+/* SIGN UP */
+
+.fib-1 {
+  font-family: 'Inter', sans-serif;
+  color: black;
+  font-size: 21px;
+  font-weight: 600;
+  padding-left: 5rem;
+  padding-top: 3rem;
+}
+
+.head-4 {
+  font-family: 'Inter', sans-serif;
+  padding-left:5rem;
+  padding-top: 1rem;
+  font-size: 26px;
+}
+
+.pic-2 {
+  width: 650px;
+}
+
+.search-3 {
+  padding-left: 5rem;
+  padding-top: 0rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.in {
+  font-family: 'Inter', sans-serif;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 4px;
+  border: 0.5px solid rgba(31, 28, 28, 0.55);
+ width: 94%;
+  padding-left: 1rem;
+  font-size: 14px;
+}
+.in2 {
+  font-family: 'Inter', sans-serif;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 4px;
+  border: 0.5px solid rgba(31, 28, 28, 0.55);
+ width: 76%;
+  padding-left: 1rem;
+  font-size: 14px;
+}
+
+
+.down {
+  padding-top: 1rem;
+  margin-bottom: 0.6rem;
+  font-size: 24px;
+}
+
+.eye {
+  position: relative;
+  right: 2rem;
+  left: 29rem;
+  top: -2rem;
+  color: grey;
+}
+.eye1 {
+  position: relative;
+  right: 2rem;
+  left: -2rem;
+  top: 0rem;
+  color: grey;
+}
+
+.terms {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-content: center;
+  padding-left: 7.5rem;
+  padding-top: 1rem;
+}
+
+.cond {
+  font-family: 'Inter', sans-serif;
+  color: #4a1bb6;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 49px;
+  margin-left: -20.5rem;
+
+}
+
+.create {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  padding-top: 13px;
+}
+
+.account {
+  padding-left: 8rem;
+  /* padding-top: 2rem; */
+}
+
+.spinner {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+  border: 2px solid transparent;
+  border-top: 2px solid #4a1bb6;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.new-btn {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #4a1bb6;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  /* padding-right: 11rem;
+  padding-left: 11rem; */
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  width: 500px;
+}
+
+.btn-5 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #4a1bb6;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding-right: 9rem;
+  padding-left: 9rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-left: 91px;
+}
+
+.btn-6 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #4a1bb6;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding-right: 11rem;
+  padding-left: 11rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-left: -3rem;
+}
+
+.ready {
+  font-family: 'Inter', sans-serif;
+  font-size: 19px;
+  margin-left: -3rem;
+}
+
+.sign {
+  font-family: 'Inter', sans-serif;
+  color: #4a1bb6;
+  padding-left: 0.3rem;
+}
+
+.beneath {
+  padding-left: 17rem;
+  margin-bottom: 10rem
+}
+
+.App-4 {
+
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+ margin-right: 5rem;
+ 
+
+}
+.App-5 {
+
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  /* margin-top: 5rem;
+ margin-right: 5rem; */
+ 
+
+}
+
+.container-5 {
+  background-color: #4a1bb6;
+
+
+}
+
+.wrapper {
+  display: flex;
+  /* padding-right: 8rem; */
+}
+
+.left {
+  flex: 1;
+  /* padding-top: 8rem; */
+}
+
+.right {
+  flex: 1;
+  background-color: #4a1bb6;
+}
+
+.img-4 {
+  position: relative;
+  left: 11rem;
+  padding-top: 11rem;
+
+}
+
+.last-man {
+  font-family: 'Inter', sans-serif;
+  color: white;
+  padding-left: 15rem;
+}
+
+.last-last {
+  font-size: 46px;
+    font-weight: 700;
+    padding-right: 9rem;
+}
+
+.la-2 {
+  font-size: 20px;
+    font-weight: 100;
+    line-height: 1.5;
+    padding-right: 14rem;
+    text-align: center;
+}
+
+
+@media only screen and (min-device-width: 1600px) and (max-device-width: 1861px){
+.pic-2 {
+  width: 625px;
+}
+}
+@media only screen and (min-device-width: 1600px) and (max-device-width: 1790px){
+.last-last {
+  font-size: 46px;
+  font-weight: 700;
+  padding-right: 8rem;
+
+}
+.la-2 {
+  font-size: 17px;
+  font-weight: 100;
+  line-height: 1.5;
+  padding-right: 14rem;
+  text-align: center;
+}
+.img-4 {
+  position: relative;
+  left: 10rem;
+  padding-top: 11rem;
+}
+.pic-2 {
+  width: 581px;
+}
+.last-last {
+  font-size: 40px;
+  font-weight: 700;
+  padding-right: 8rem;
+}
+
+
+  }
+
+  @media only screen and (min-device-width: 1600px) and (max-device-width: 1790px){
+    .cond {
+      font-family: 'Inter', sans-serif;
+      color: #4a1bb6;
+      text-decoration: underline;
+      font-weight: 600;
+      font-size: 12px;
+      margin-top: 3rem;
+      margin-left: -20rem;
+    
+    }
+    }
+    @media only screen and (min-device-width: 1600px) and (max-device-width: 1654px){
+      .cond {
+        font-family: 'Inter', sans-serif;
+        color: #4a1bb6;
+        text-decoration: underline;
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: 3rem;
+        margin-left: -20rem;
+      
+      }
+    }
+
+    @media only screen and (min-device-width: 1600px) and (max-device-width: 1627px){
+      .img-4 {
+
+    position: relative;
+    left: 8rem;
+    padding-top: 11rem;
+
+      }
+      .last-man {
+
+    font-family: 'Inter', sans-serif;
+    color: white;
+    padding-left: 12rem;
+
+      }
+    }
+
+    @media only screen and (min-device-width: 1600px) and (max-device-width: 1624px){
+      .cond {
+        font-family: 'Inter', sans-serif;
+        color: #4a1bb6;
+        text-decoration: underline;
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: 3rem;
+        margin-left: -20rem;
+      
+      }
+  }
+
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1599px){
+
+    cond {
+      font-family: 'Inter', sans-serif;
+      color: #4a1bb6;
+      text-decoration: underline;
+      font-weight: 600;
+      position: relative;
+      top: 2rem;
+      right: 33rem;
+      font-size: 19px;
+      margin-right: -4rem;
+  }
+
+
+.pic-2 {
+    width: 600px;
+}
+.img-4 {
+  position: relative;
+  left: 7rem;
+  padding-top: 11rem;
+}
+.last-last{
+  font-size: 42px;
+  font-weight: 700;
+  padding-right: 5rem;
+}
+.last-man {
+  font-family: 'Inter', sans-serif;
+  color: white;
+  padding-left: 11rem;
+}
+
+.la-2 {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 1.5;
+  padding-right: 10rem;
+  text-align: center;
+}
+
+.cond {
+  font-family: 'Inter', sans-serif;
+  color: #4a1bb6;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 3rem;
+  margin-left: -20rem;
+
+}
+
+
+}
+
+
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1559px){
+  .cond {
+    font-family: 'Inter', sans-serif;
+    color: #4a1bb6;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 3rem;
+    margin-left: -20rem;
+  
+  }
+ 
+  .pic-2 {
+    width: 586px;
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1559px){
+  .cond {
+    font-family: 'Inter', sans-serif;
+    color: #4a1bb6;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 3rem;
+    margin-left: -20rem;
+  
+  }
+}
+}
+
+
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1471px){
+  .img-4 {
+    position: relative;
+    left: 6rem;
+    padding-top: 11rem;
+}
+.pic-2 {
+  width: 533px;
+}
+.la-2 {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 1.5;
+  padding-right: 6rem;
+  text-align: center;
+}
+.cond {
+  font-family: 'Inter', sans-serif;
+  color: #4a1bb6;
+  text-decoration: underline;
+  font-weight: 600;
+  position: relative;
+  top: 2rem;
+  right: 33rem;
+  font-size: 19px;
+  margin-right: -8rem;
+
+}
+  
+
+}
+
+
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1471px){
+  .fib-1 {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 21px;
+    font-weight: 600;
+    padding-left: 5rem;
+    padding-top: 3rem;
+}
+.head-4 {
+  font-family: 'Inter', sans-serif;
+  padding-left: 5rem;
+  padding-top: 1rem;
+  font-size: 26px;
+}
+.search-3 {
+  padding-left: 5rem;
+  padding-top: 0rem;
+  font-family: 'Inter', sans-serif;
+}
+.terms {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-content: center;
+  padding-left: 4.5rem;
+  padding-top: 1rem;
+}
+
+.cond {
+  font-family: 'Inter', sans-serif;
+  color: #4a1bb6;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 0.5rem;
+  margin-left: 12.5rem;
+}
+.create {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  padding-top: 0px;
+}
+.account {
+  padding-left: 5rem;
+  padding-top: 2rem;
+}
+.beneath {
+  padding-left: 12rem;
+  margin-bottom: 10rem;
+}
+.img-4 {
+  position: relative;
+  left: 4rem;
+  padding-top: 11rem;
+
+}
+.last-man {
+  font-family: 'Inter', sans-serif;
+  color: white;
+  padding-left: 8rem;
+}
+.last-last {
+  font-size: 38px;
+  font-weight: 700;
+  padding-right: 1rem;
+}
+
+
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1341px){
+  .create {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 0px;
+  }
+  
+  .cond {
+    font-family: 'Inter', sans-serif;
+    color: #4a1bb6;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 1px;
+    margin-left: 14rem;
+  
+  }
+}
+
+@media only screen and (min-device-width: 1313px) and (max-device-width: 1341px){
+  .cond {
+    font-family: 'Inter', sans-serif;
+    color: #4a1bb6;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 0rem;
+    margin-left: 14rem;
+}
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1300px){
+  .pic-2 {
+    width: 494px;
+}
+.last-last {
+  font-size: 35px;
+  font-weight: 700;
+  padding-right: 1rem;
+
+}
+.cond {
+  font-family: 'Inter', sans-serif;
+  color: #4a1bb6;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 0.5rem;
+  margin-left: 13.5rem;
+}
+}
+ 
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1212px){
+  .fib-1 {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 21px;
+    font-weight: 600;
+    padding-left: 3rem;
+    padding-top: 3rem;
+
+}
+.head-4 {
+  font-family: 'Inter', sans-serif;
+  padding-left: 3rem;
+  padding-top: 1rem;
+  font-size: 26px;
+
+}
+.search-3 {
+  padding-left: 3rem;
+  padding-top: 0rem;
+  font-family: 'Inter', sans-serif;
+}
+.terms {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-content: center;
+  padding-left: 2.5rem;
+  padding-top: 1rem;
+
+}
+.account {
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+.beneath {
+  padding-left: 10rem;
+  margin-bottom: 10rem;
+}
+.pic-2 {
+  width: 483px;
+
+}
+.last-man {
+  font-family: 'Inter', sans-serif;
+  color: white;
+  padding-left: 7rem;
+  padding-top: 3rem;
+}
+.last-last {
+  font-size: 33px;
+  font-weight: 700;
+  padding-right: 1rem;
+}
+}
+
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1167px){
+  .cond {
+    font-family: 'Inter', sans-serif;
+    color: #4a1bb6;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 11px;
+    margin-top: 0.5rem;
+    margin-left: 12.5rem;
+}
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1161px){
+  .head-4 {
+    font-family: 'Inter', sans-serif;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    font-size: 22px;
+}
+.down {
+  padding-top: 1rem;
+  margin-bottom: 0.6rem;
+  font-size: 20px;
+
+}
+.in {
+  font-family: 'Inter', sans-serif;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 4px;
+  border: 0.5px solid rgba(31, 28, 28, 0.55);
+  padding-right: 16rem;
+  padding-left: 1rem;
+  font-size: 14px;
+}
+
+.create {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+
+}
+.cond {
+    font-family: 'Inter', sans-serif;
+    color: #4a1bb6;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 10px;
+    margin-top: 3px;
+    margin-left: 263px;
+}
+.btn-5 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #4a1bb6;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding-right: 8rem;
+  padding-left: 8rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+
+}
+.beneath {
+  padding-left: 7rem;
+  margin-bottom: 10rem;
+
+}
+.pic-2 {
+  
+    width: 438px;
+}
+.img-4 {
+  position: relative;
+  left: 4rem;
+  padding-top: 11rem;
+}
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1161px){
+  .cond {
+    font-family: 'Inter', sans-serif;
+    color: #4a1bb6;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 10px;
+    margin-top: 0px;
+    margin-left: 284px;
+  }
+.create {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+}
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1119px){
+  .cond {
+    font-family: 'Inter', sans-serif;
+    color: #4a1bb6;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 10px;
+    margin-top: 0px;
+    margin-left: 286px;
+    margin-right: -10rem;
+}
+
+}
+
+
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1102px){
+  .create {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+}
+.cond {
+  font-family: 'Inter', sans-serif;
+  color: #4a1bb6;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 9px;
+  margin-top: 0px;
+  margin-left: 306px;
+}
+
+
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1041px){
+  .pic-2 {
+    width: 406px;
+}
+.cond {
+  font-family: 'Inter', sans-serif;
+  color: #4a1bb6;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 10px;
+  margin-right: -12rem;
+  margin-top: 0px;
+  margin-left: 290px;
+}
+.create {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+}
+
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1082px){
+  .pic-2 {
+    width: 428px;
+}
+.last-last {
+  font-size: 29px;
+  font-weight: 700;
+  padding-right: 1rem;
+}
+.la-2 {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 1.5;
+  padding-right: 5rem;
+  text-align: center;
+}
+
+}
+
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1026px){
+  .img-4 {
+    position: relative;
+    left: 3rem;
+    padding-top: 11rem;
+
+}
+.pic-2 {
+  width: 428px;
+
+}
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 1022px){
+
+.right {
+  display: none;
+}
+.fib-1 {
+  font-family: 'Inter', sans-serif;
+  color: black;
+  font-size: 21px;
+  font-weight: 600;
+  padding-left: 14rem;
+}
+.head-4 {
+  font-family: 'Inter', sans-serif;
+  padding-left: 14rem;
+  padding-top: 1rem;
+  font-size: 26px;
+  padding-right: 15rem;
+}
+.search-3 {
+  padding-left: 14rem;
+  padding-top: 0rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.terms {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-content: center;
+    padding-left: 13.5rem;
+    padding-top: 1rem;
+}
+.account {
+  padding-left: 14rem;
+  padding-top: 2rem;
+}
+
+.beneath {
+  padding-left: 21rem;
+  margin-bottom: 10rem;
+}
+.btn-5 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  background-color: #4a1bb6;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding-right: 9rem;
+  padding-left: 9rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.ready {
+  font-family: 'Inter', sans-serif;
+  font-size: 23px;
+
+}
+}
+
+@media only screen and (min-device-width: 790px) and (max-device-width: 870px){
+  .fib-1 {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 21px;
+    font-weight: 600;
+    padding-left: 10rem;
+  }
+  .head-4 {
+    font-family: 'Inter', sans-serif;
+    padding-left: 10rem;
+    padding-top: 1rem;
+    font-size: 26px;
+    padding-right: 15rem;
+}
+.search-3 {
+  margin: auto;
+  padding-left: 10rem;
+  padding-top: 0rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.terms {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-content: center;
+  padding-left: 9.5rem;
+  padding-top: 1rem;
+}
+.account {
+  padding-left: 10rem;
+  padding-top: 2rem;
+}
+.ready {
+  font-family: 'Inter', sans-serif;
+  font-size: 19px;
+}
+.beneath {
+  padding-left: 17rem;
+  margin-bottom: 10rem;
+}
+}
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 782px){
+  .fib-1 {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 21px;
+    font-weight: 600;
+    padding-left: 8rem;
+
+}
+.head-4 {
+  font-family: 'Inter', sans-serif;
+  padding-left: 8rem;
+  padding-top: 1rem;
+  font-size: 26px;
+
+}
+.search-3 {
+  padding-left: 8rem;
+  padding-top: 0rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.terms {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-content: center;
+  padding-left: 7.5rem;
+  padding-top: 1rem;
+}
+.account {
+  padding-left: 8rem;
+  padding-top: 2rem;
+}
+.beneath {
+  padding-left: 14rem;
+  margin-bottom: 10rem;
+
+}
+}
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 725px){
+  .fib-1 {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 21px;
+    font-weight: 600;
+    padding-left: 7rem;
+}
+.head-4 {
+  font-family: 'Inter', sans-serif;
+  padding-left: 7rem;
+  padding-top: 1rem;
+  font-size: 26px;
+}
+.search-3 {
+  padding-left: 7rem;
+  padding-top: 0rem;
+  font-family: 'Inter', sans-serif;
+}
+.terms {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-content: center;
+  padding-left: 7rem;
+  padding-top: 1rem;
+}
+.account {
+  padding-left: 7rem;
+  padding-top: 2rem;
+}
+.ready {
+  font-family: 'Inter', sans-serif;
+  font-size: 19px;
+}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 675px){
+  .fib-1 {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 21px;
+    font-weight: 600;
+    padding-left: 5rem;
+}
+.head-4 {
+  font-family: 'Inter', sans-serif;
+  padding-left: 5rem;
+  padding-top: 1rem;
+  font-size: 26px;
+}
+.search-3 {
+  padding-left: 5rem;
+  padding-top: 0rem;
+  font-family: 'Inter', sans-serif;
+}
+.terms {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-content: center;
+  padding-left: 5rem;
+  padding-top: 1rem;
+}
+.account {
+  padding-left: 5rem;
+  padding-top: 2rem;
+}
+.ready {
+  font-family: 'Inter', sans-serif;
+  font-size: 19px;
+}
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 608px){
+  .fib-1 {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 21px;
+    font-weight: 600;
+    padding-left: 3rem;
+}
+.head-4 {
+  font-family: 'Inter', sans-serif;
+  padding-left: 3rem;
+  padding-top: 1rem;
+  font-size: 26px;
+  padding-right: -1rem;
+}
+.search-3 {
+  padding-left: 3rem;
+  padding-top: 0rem;
+  font-family: 'Inter', sans-serif;
+}
+.terms {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-content: center;
+  padding-left: 2.5rem;
+  padding-top: 1rem;
+}
+.account {
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+.beneath {
+  padding-left: 9rem;
+  margin-bottom: 10rem;
+}
+
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 595px){
+  .cond {
+    font-family: 'Inter', sans-serif;
+    color: #4a1bb6;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 3rem;
+    margin-left: -20rem;
+}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 560px){
+.fib-1 {
+  padding-left: 5rem;
+}
+.head-4 {
+  font-family: 'Inter', sans-serif;
+  padding-left: 5rem;
+  padding-top: 1rem;
+  font-size: 29px;
+  padding-right: 0rem;
+}
+.down {
+  padding-top: 1rem;
+  margin-bottom: 0.6rem;
+  font-size: 27px;
+}
+.search-3 {
+  padding-left: 5rem;
+}
+.in {
+  font-family: 'Inter', sans-serif;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 4px;
+  border: 0.5px solid rgba(31, 28, 28, 0.55);
+  padding-right: 8rem;
+  padding-left: 1rem;
+  font-size: 22px;
+}
+.create {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+.terms {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-content: center;
+  padding-left: 4.5rem;
+  padding-top: 1rem;
+}
+.account {
+  padding-left: 5rem;
+  padding-top: 2rem;
+
+}
+.btn-5 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #4a1bb6;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding-right: 6.5rem;
+  padding-left: 6.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.ready {
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+}
+.beneath {
+  padding-left: 7rem;
+  margin-bottom: 10rem;
+}
+}
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 560px){
+  .cond {
+    font-family: 'Inter', sans-serif;
+    color: #4a1bb6;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 60px;
+    margin-left: -20rem;
+}
+.create {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  padding-top: 21px;
+
+}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 500px){
+  .fib-1 {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 21px;
+    font-weight: 600;
+    padding-left: 3rem;
+}
+.head-4 {
+  font-family: 'Inter', sans-serif;
+  padding-left: 3rem;
+  padding-top: 1rem;
+  font-size: 27px;
+  padding-right: 0rem;
+}
+.search-3 {
+  padding-left: 3rem;
+
+}
+.terms {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-content: center;
+  padding-left: 2.5rem;
+  padding-top: 1rem;
+}
+.account {
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 456px){
+  .create {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+.cond {
+  font-family: 'Inter', sans-serif;
+  color: #4a1bb6;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 60px;
+  margin-left: -20rem;
+}
+
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 456px){
+  .fib-1 {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 21px;
+    font-weight: 600;
+    padding-left: 3rem;
+}
+.head-4 {
+  font-family: 'Inter', sans-serif;
+  padding-left: 3rem;
+  padding-top: 1rem;
+  font-size: 27px;
+  padding-right: 0rem;
+}
+.in {
+  font-family: 'Inter', sans-serif;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 4px;
+  border: 0.5px solid rgba(31, 28, 28, 0.55);
+  padding-right: 9rem;
+  padding-left: 1rem;
+  font-size: 17px;
+}
+.search-3 {
+padding-left: 3rem;
+}
+
+.create {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+.cond {
+  font-family: 'Inter', sans-serif;
+  color: #4a1bb6;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 60px;
+  margin-left: -20rem;
+}
+.account {
+  padding-left: 3rem;
+  padding-top: 2rem;
+}
+.beneath {
+  padding-left: 6rem;
+  margin-bottom: 10rem;
+}
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 415px){
+  .fib-1 {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 21px;
+    font-weight: 600;
+    padding-left: 3rem;
+}
+.head-4 {
+  font-family: 'Inter', sans-serif;
+  padding-left: 3rem;
+  padding-top: 1rem;
+  font-size: 24px;
+  padding-right: 0rem;
+}
+.in {
+  font-family: 'Inter', sans-serif;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 4px;
+  border: 0.5px solid rgba(31, 28, 28, 0.55);
+  padding-right: 7rem;
+  padding-left: 1rem;
+  font-size: 17px;
+}
+.search-3 {
+  padding-left: 3rem;
+}
+.terms {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-content: center;
+  padding-left: 3rem;
+  padding-top: 1rem;
+}
+.btn-5 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #4a1bb6;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding-right: 3.5rem;
+  padding-left: 5.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.ready {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}
+.cond {
+  font-family: 'Inter', sans-serif;
+  color: #4a1bb6;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 60px;
+  margin-left: -34.5rem;
+}
+.account {
+  padding-left: 3rem;
+  padding-top: 1rem;
+}
+
+
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 419px){
+  .btn-5 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #4a1bb6;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding-right: 5.5rem;
+    padding-left: 5.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 415px){
+  .btn-5 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #4a1bb6;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding-right: 3.5rem;
+    padding-left: 5.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .create {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    padding-right: 14rem;
+    position: relative;
+    top: 0rem;
+}
+
+
+.terms {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-content: center;
+  padding-left: 2.5rem;
+  padding-top: 1rem;
+}
+.account {
+  padding-left: 3rem;
+  padding-top: 1rem;
+}
+
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 395px){
+  .head-4 {
+    font-family: 'Inter', sans-serif;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    font-size: 22px;
+    padding-right: 0rem;
+}
+.in {
+  font-family: 'Inter', sans-serif;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 4px;
+  border: 0.5px solid rgba(31, 28, 28, 0.55);
+  padding-right: 7rem;
+  padding-left: 1rem;
+  font-size: 17px;
+}
+.btn-5 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 21px;
+  background-color: #4a1bb6;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+
+}
+.create {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  padding-right: 4rem;
+  position: relative;
+  top: 0rem;
+
+}
+.cond {
+  font-family: 'Inter', sans-serif;
+  color: #4a1bb6;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 60px;
+  margin-left: -20rem;
+}
+
+
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 390px){
+  .head-4 {
+    font-family: 'Inter', sans-serif;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    font-size: 21px;
+    padding-right: 0rem;
+}
+.down {
+  padding-top: 1rem;
+  margin-bottom: 0.6rem;
+  font-size: 23px;
+}
+.fib-1 {
+  font-family: 'Inter', sans-serif;
+  color: black;
+  font-size: 21px;
+  font-weight: 600;
+  padding-left: 2rem;
+}
+.terms {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  align-content: center;
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+.ready {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+.search-3 {
+  padding-left: 2rem;
+}
+.account {
+  padding-left: 2rem;
+}
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 383px){
+  .create {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    padding-right: 4rem;
+    position: relative;
+    top: 0rem;
+}
+.cond {
+  font-family: 'Inter', sans-serif;
+  color: #4a1bb6;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 60px;
+  margin-left: -21.5rem;
+}
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 365px){
+  .fib-1 {
+    font-family: 'Inter', sans-serif;
+    color: black;
+    font-size: 21px;
+    font-weight: 600;
+    padding-left: 3rem;
+}
+.head-4 {
+  font-family: 'Inter', sans-serif;
+  padding-left: 3rem;
+  padding-top: 1rem;
+  font-size: 20px;
+  padding-right: 0rem;
+
+}
+.search-3 {
+  padding-left: 3rem;
+}
+.in {
+  font-family: 'Inter', sans-serif;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 4px;
+  border: 0.5px solid rgba(31, 28, 28, 0.55);
+  padding-right: 4rem;
+  padding-left: 1rem;
+  font-size: 16px;
+}
+.create {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  padding-right: 4rem;
+  position: relative;
+  top: 0rem;
+
+}
+.cond {
+  font-family: 'Inter', sans-serif;
+  color: #4a1bb6;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 51px;
+  margin-left: -19rem;
+}
+
+.account {
+  padding-left: 3rem;
+  padding-top: 1rem;
+}
+.beneath {
+  padding-left: 3rem;
+  margin-bottom: 10rem;
+}
+.ready {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+}
+.btn-5 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  background-color: #4a1bb6;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+}
+
+/* responsive 
+breakpoints */
+@media only screen and (min-device-width: 1600px) and (max-device-width: 1962px) {
+  .container {
+    left: 64rem;
+  }
+
+  .container-2 {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+}
+
+.container-3 {
+  display: none;
+}
+
+
+@media only screen and (min-device-width: 1300px) and (max-device-width: 1599px) {
+  .pic {
+    width: 600px;
+  }
+
+}
+
+@media only screen and (min-device-width: 1300px) and (max-device-width: 1378px) {
+  .pic {
+    width: 550px;
+    top: 7rem;
+  }
+
+  .container-1 {
+    padding-bottom: 6rem;
+    margin-top: 4rem;
+    padding-top: 0rem;
+  }
+
+  .c1 {
+    font-size: 40px;
+  }
+
+  .c2 {
+    font-size: 18px;
+  }
+
+  .f-one {
+    padding-left: 5rem;
+  }
+
+}
+
+@media only screen and (min-device-width: 1300px) and (max-device-width: 1330px) {
+  .pic {
+    width: 500px;
+    top: 6rem;
+  }
+
+  .f-one {
+    padding-left: 4rem;
+  }
+
+  .container-1 {
+    padding-bottom: 3rem;
+    margin-top: 4rem;
+    padding-top: 0rem;
+  }
+
+  .container-2 {
+    width: 24rem;
+
+  }
+
+  .f-one {
+    padding-left: 3rem;
+  }
+
+  .c-body {
+    font-size: 17px;
+  }
+
+  .btn-4 {
+    font-size: 14px;
+  }
+
+
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1299px) {
+  .f-one {
+    padding-left: 2rem;
+  }
+
+  .f-two {
+    padding-left: 2rem;
+  }
+
+  .f-three {
+    padding-left: 2rem;
+  }
+
+  .f-four {
+    padding-left: 2rem;
+  }
+
+  .f-five {
+    padding-left: 2rem;
+  }
+
+  .pic {
+    width: 540px;
+    top: 4.5rem;
+    left: -1rem;
+  }
+
+  .container-1 {
+  
+      background-color: #3b01bfe8;
+      display: flex;
+      padding-left: 0rem;
+      margin-left: 6rem;
+      margin-right: 8rem;
+       padding-top: 0rem;
+      padding-bottom: 4rem;
+      margin-top: 0rem;
+  }
+
+  .c1 {
+    font-size: 34px;
+  }
+
+  .c2 {
+    font-size: 16px;
+    line-height: 1.5rem;
+    padding-right: 6rem;
+    padding-left: 2.5rem;
+  }
+
+  .c-body {
+    font-size: 17px;
+  }
+
+  .btn-4 {
+    font-size: 14px;
+  }
+
+  .container-2 {
+    width: 23rem;
+
+  }
+
+  .container {
+    width: 600px;
+    bottom: 28rem;
+  }
+
+  .head1 {
+    font-size: 46px;
+  }
+
+  .head2 {
+    font-size: 18px;
+    margin-top: -2rem;
+  }
+
+  .card {
+    font-size: 17px;
+  }
+
+  .container-3 {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1239px) {
+  .f-one {
+    padding-left: 2rem;
+  }
+
+  .f-two {
+    padding-left: 2rem;
+  }
+
+  .f-three {
+    padding-left: 2rem;
+  }
+
+  .f-four {
+    padding-left: 2rem;
+  }
+
+  .f-five {
+    padding-left: 2rem;
+  }
+
+  .pic {
+    width: 482px;
+    padding-top: 3rem;
+    top: 0.5rem;
+  
+  }
+
+  .container-1 {
+    background-color: #3b01bfe8;
+    display: flex;
+    padding-left: 0rem;
+    margin-left: 6rem;
+    margin-right: 8rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    margin-top: 0rem;
+    border-radius: 11px;
+}
+  
+
+  .c1 {
+    font-size: 34px;
+  }
+
+  .c2 {
+    
+      font-size: 16px;
+      line-height: 1.5rem;
+      padding-right: -1rem;
+      margin-top: 0rem;
+      padding-left: 31px;
+  }
+  .c3 {
+    font-size: 17px;
+}
+  .c-body {
+    font-size: 17px;
+  }
+
+  .btn-4 {
+    font-size: 14px;
+  }
+
+  .container-2 {
+    width: 23rem;
+
+  }
+.button {
+  padding-left: 2rem;
+}
+  .container {
+    width: 600px;
+    bottom: 28rem;
+    left: 46rem;
+  }
+
+  .head1 {
+    font-size: 46px;
+  }
+
+  .head2 {
+    font-size: 18px;
+    margin-top: -2rem;
+  }
+
+  .card {
+    font-size: 17px;
+  }
+
+  .btn-2 {
+    font-size: 21px;
+  }
+
+  .c1 {
+    
+    font-size: 27px;
+    position: relative;
+    padding-left: 30px;
+    top: 1rem;
+    padding-top: 108px;
+    margin-top: 0rem;
+
+}
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1171px) {
+  .container {
+    left: 42rem;
+  }
+
+  .c1 {
+    
+      font-size: 27px;
+      position: relative;
+      padding-left: 30px;
+      top: 1rem;
+      padding-top: 108px;
+      margin-top: 0rem;
+  
+  }
+
+  .pic {
+    width: 482px;
+    padding-top: 2rem;
+    top: 0.6rem;
+}
+  }
+
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1097px) {
+  .container {
+    left: 40rem;
+  }
+
+  .container-1 {
+    padding-top: 0rem;
+  }
+
+  .c1 {
+    font-size: 26px;
+  }
+
+  .c2 {
+    font-size: 14px;
+    padding-right: 1rem;
+  }
+  .btn-3 {
+    background-color: white;
+    color: #4a1bb6;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .pic {
+    top: 0.5rem;
+    left: -1rem;
+    width: 395px;
+  }
+  .hero {
+    width: 68%;
+  }
+  .head1 {
+    font-size: 40px;
+  }
+
+  .btn-2 {
+    font-size: 18px;
+  }
+
+  .head2 {
+    font-size: 17px;
+  }
+
+  .f-one {
+    padding-left: 2rem;
+    font-size: 10px;
+  }
+
+  .f-two {
+    padding-left: 2rem;
+    font-size: 10px;
+  }
+
+  .f-three {
+    padding-left: 2rem;
+    font-size: 10px;
+  }
+
+  .f-four {
+    padding-left: 2rem;
+    font-size: 10px;
+  }
+
+  .f-five {
+    padding-left: 2rem;
+    font-size: 10px;
+  }
+
+  .name {
+    font-size: 12px;
+  }
+
+  .money {
+    font-size: 12px;
+    right: 4rem;
+  }
+
+  .container-2 {
+    width: 22rem;
+  }
+}
+
+
+ 
+
+
+
+
+@media only screen and (min-device-width: 767px) and (max-device-width: 1023px) {
+
+
+  .navigation-inner {
+    display: none;
+  }
+
+  .fib {
+    font-size: 36px;
+  }
+
+  .container {
+    left: 12rem;
+    bottom: 67rem;
+
+  }
+
+  .first-ratings {
+    display: none;
+  }
+
+  .mark {
+
+    position: relative;
+    top: 12rem;
+
+
+  }
+
+  .hea {
+    margin-top: 25rem;
+    position: relative;
+    top: 9rem;
+  }
+
+  .links {
+    display: block;
+    position: relative;
+    top: 11rem;
+  }
+
+  .head1 {
+    padding-right: 27rem;
+  }
+
+  .head2 {
+    font-size: 27px;
+    line-height: 2rem;
+    padding-right: 30rem;
+  }
+
+  .hero {
+    width: 83%;
+  }
+
+  .view {
+    font-size: 22px;
+    padding-left: 18rem;
+  }
+
+  .btn-2 {
+    padding-left: 18rem;
+    padding-right: 18rem;
+  }
+
+  .card {
+    font-size: 24px;
+  }
+
+  .temp {
+    font-size: 24px;
+    position: relative;
+    top: 3rem;
+    right: 20rem;
+  }
+
+  .sv {
+    position: relative;
+    top: 3rem;
+    right: 20rem;
+  }
+
+  .fib2 {
+    font-size: 36px;
+  }
+
+  .head-3 {
+    font-size: 64px;
+    padding-right: 15rem;
+  }
+
+  .three {
+    display: block;
+  }
+
+  .time {
+    font-size: 27px;
+    line-height: 2.5rem;
+    padding-right: 12rem;
+  }
+
+  .cus {
+    font-size: 27px;
+    line-height: 2.5rem;
+    padding-right: 12rem;
+  }
+
+  .all {
+    font-size: 27px;
+    line-height: 2.5rem;
+    padding-right: 12rem;
+
+  }
+
+  .container-1 {
+    display: block;
+    padding-bottom: 7rem;
+    margin-right: 8rem;
+  }
+
+  .c1 {
+    
+      font-size: 52px;
+      padding-left: 6rem;
+      margin-top: 1rem;
+  
+  }
+
+  .c2 {
+
+      font-size: 21px;
+      line-height: 2rem;
+      padding-right: 15rem;
+      padding-left: 6rem;
+  
+  }
+
+  .c3 {
+    font-size: 21px;
+  }
+
+  .btn-3 {
+    padding-left: 14rem;
+    padding-right: 14rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+  }
+
+  .button {
+    padding-left: 6rem;
+  }
+  .win {
+    padding-left: 62px;
+  }
+
+  .pic {
+   
+      width: 586px;
+      height: 51rem;
+      left: 2.5rem;
+      top: 7.5rem;
+  }
+  .foot {
+    font-size: 24px;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  .big {
+    font-size: 36px;
+  }
+
+  .bighead {
+    font-size: 36px;
+  }
+
+  .build {
+    font-size: 36px;
+  }
+
+  .container-3 {
+    display: none;
+  }
+}
+
+
+@media only screen and (min-device-width: 767px) and (max-device-width: 990px) {
+
+
+  .navigation-inner {
+    display: none;
+  }
+
+  .fib {
+    font-size: 36px;
+  }
+
+  .container {
+    left: 12rem;
+    bottom: 67rem;
+
+  }
+
+  .first-ratings {
+    display: none;
+  }
+
+  .mark {
+
+    position: relative;
+    top: 12rem;
+
+
+  }
+
+  .hea {
+    margin-top: 25rem;
+    position: relative;
+    top: 9rem;
+  }
+
+  .links {
+    display: block;
+    position: relative;
+    top: 11rem;
+  }
+
+  .head1 {
+    padding-right: 27rem;
+  }
+
+  .head2 {
+    font-size: 27px;
+    line-height: 2rem;
+    padding-right: 30rem;
+  }
+
+  .hero {
+    width: 83%;
+  }
+
+  .view {
+    font-size: 22px;
+    padding-left: 18rem;
+  }
+
+  .btn-2 {
+    padding-left: 18rem;
+    padding-right: 18rem;
+  }
+
+  .card {
+    font-size: 24px;
+  }
+
+  .temp {
+    font-size: 24px;
+    position: relative;
+    top: 3rem;
+    right: 20rem;
+  }
+
+  .sv {
+    position: relative;
+    top: 3rem;
+    right: 20rem;
+  }
+
+  .fib2 {
+    font-size: 36px;
+  }
+
+  .head-3 {
+    font-size: 64px;
+    padding-right: 15rem;
+  }
+
+  .three {
+    display: block;
+  }
+
+  .time {
+    font-size: 27px;
+    line-height: 2.5rem;
+    padding-right: 12rem;
+  }
+
+  .cus {
+    font-size: 27px;
+    line-height: 2.5rem;
+    padding-right: 12rem;
+  }
+
+  .all {
+    font-size: 27px;
+    line-height: 2.5rem;
+    padding-right: 12rem;
+
+  }
+
+  .container-1 {
+    display: block;
+    padding-bottom: 7rem;
+    margin-right: 8rem;
+    margin-top: 7rem;
+  }
+
+  .c1 {
+    
+      font-size: 52px;
+      padding-left: 5.5rem;
+      margin-top: 1rem;
+  
+  }
+
+  .c2 {
+
+      font-size: 21px;
+      line-height: 2rem;
+      padding-right: 15rem;
+      padding-left: 5.5rem;
+  
+  }
+
+  .c3 {
+    font-size: 21px;
+  }
+
+  .btn-3 {
+    padding-left: 14rem;
+    padding-right: 14rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+  }
+
+  .button {
+    padding-left: 5.5rem;
+  }
+  .win {
+    padding-left: 51px;
+  }
+
+  .pic {
+   
+      width: 586px;
+      height: 51rem;
+      left: 2.5rem;
+      top: 7.5rem;
+  }
+  .foot {
+    font-size: 24px;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  .big {
+    font-size: 36px;
+  }
+
+  .bighead {
+    font-size: 36px;
+  }
+
+  .build {
+    font-size: 36px;
+  }
+
+  .container-3 {
+    display: none;
+  }
+}
+
+
+
+
+@media only screen and (min-device-width: 767px) and (max-device-width: 950px) {
+
+
+  .navigation-inner {
+    display: none;
+  }
+
+  .fib {
+    font-size: 36px;
+  }
+
+  .container {
+    left: 12rem;
+    bottom: 67rem;
+
+  }
+
+  .first-ratings {
+    display: none;
+  }
+
+  .mark {
+
+    position: relative;
+    top: 12rem;
+
+
+  }
+
+  .hea {
+    margin-top: 25rem;
+    position: relative;
+    top: 9rem;
+  }
+
+  .links {
+    display: block;
+    position: relative;
+    top: 11rem;
+  }
+
+  .head1 {
+    padding-right: 27rem;
+  }
+
+  .head2 {
+    font-size: 27px;
+    line-height: 2rem;
+    padding-right: 30rem;
+  }
+
+  .hero {
+    width: 83%;
+  }
+
+  .view {
+    font-size: 22px;
+    padding-left: 18rem;
+  }
+
+  .btn-2 {
+    padding-left: 18rem;
+    padding-right: 18rem;
+  }
+
+  .card {
+    font-size: 24px;
+  }
+
+  .temp {
+    font-size: 24px;
+    position: relative;
+    top: 3rem;
+    right: 20rem;
+  }
+
+  .sv {
+    position: relative;
+    top: 3rem;
+    right: 20rem;
+  }
+
+  .fib2 {
+    font-size: 36px;
+  }
+
+  .head-3 {
+    font-size: 64px;
+    padding-right: 15rem;
+  }
+
+  .three {
+    display: block;
+  }
+
+  .time {
+    font-size: 27px;
+    line-height: 2.5rem;
+    padding-right: 12rem;
+  }
+
+  .cus {
+    font-size: 27px;
+    line-height: 2.5rem;
+    padding-right: 12rem;
+  }
+
+  .all {
+    font-size: 27px;
+    line-height: 2.5rem;
+    padding-right: 12rem;
+
+  }
+
+  .container-1 {
+    display: block;
+    padding-bottom: 7rem;
+    margin-right: 8rem;
+    margin-top: 7rem;
+  }
+
+  .c1 {
+    
+      font-size: 52px;
+      padding-left: 4.5rem;
+      margin-top: 1rem;
+  
+  }
+
+  .c2 {
+
+      font-size: 21px;
+      line-height: 2rem;
+      padding-right: 15rem;
+      padding-left: 4.5rem;
+  
+  }
+
+  .c3 {
+    font-size: 21px;
+  }
+
+  .btn-3 {
+    padding-left: 14rem;
+    padding-right: 14rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+  }
+
+  .button {
+    padding-left: 4.5rem;
+  }
+  .win {
+    padding-left: 30px;
+  }
+
+  .pic {
+   
+      width: 586px;
+      height: 51rem;
+      left: 2.5rem;
+      top: 7.5rem;
+  }
+  .foot {
+    font-size: 24px;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  .big {
+    font-size: 36px;
+  }
+
+  .bighead {
+    font-size: 36px;
+  }
+
+  .build {
+    font-size: 36px;
+  }
+
+  .container-3 {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+@media only screen and (min-device-width: 767px) and (max-device-width: 930px) {
+
+
+  .navigation-inner {
+    display: none;
+  }
+
+  .fib {
+    font-size: 36px;
+  }
+
+  .container {
+    left: 7rem;
+    bottom: 88rem;
+
+  }
+
+  .first-ratings {
+    display: none;
+  }
+
+  .mark {
+
+    position: relative;
+    top: 12rem;
+
+
+  }
+
+  .hea {
+    margin-top: 25rem;
+    position: relative;
+    top: 9rem;
+  }
+
+  .links {
+    display: block;
+    position: relative;
+    top: 11rem;
+  }
+
+  .head1 {
+    padding-right: 27rem;
+  }
+
+  .head2 {
+    font-size: 27px;
+    line-height: 2rem;
+    padding-right: 30rem;
+  }
+
+  .hero {
+    width: 83%;
+  }
+
+  .view {
+    font-size: 22px;
+    padding-left: 18rem;
+  }
+
+  .btn-2 {
+    padding-left: 18rem;
+    padding-right: 18rem;
+  }
+
+  .card {
+    font-size: 24px;
+  }
+
+  .temp {
+    font-size: 24px;
+    position: relative;
+    top: 3rem;
+    right: 20rem;
+  }
+
+  .sv {
+    position: relative;
+    top: 3rem;
+    right: 20rem;
+  }
+
+  .fib2 {
+    font-size: 36px;
+  }
+
+  .head-3 {
+    font-size: 64px;
+    padding-right: 15rem;
+  }
+
+  .three {
+    display: block;
+  }
+
+  .time {
+    font-size: 27px;
+    line-height: 2.5rem;
+    padding-right: 12rem;
+  }
+
+  .cus {
+    font-size: 27px;
+    line-height: 2.5rem;
+    padding-right: 12rem;
+  }
+
+  .all {
+    font-size: 27px;
+    line-height: 2.5rem;
+    padding-right: 12rem;
+
+  }
+
+  .container-1 {
+    display: block;
+    padding-bottom: 7rem;
+    margin-right: 8rem;
+    margin-top: 7rem;
+  }
+
+  .c1 {
+    
+      font-size: 52px;
+      padding-left: 3.5rem;
+      margin-top: 1rem;
+  
+  }
+
+  .c2 {
+
+      font-size: 21px;
+      line-height: 2rem;
+      padding-right: 15rem;
+      padding-left: 3.5rem;
+  
+  }
+
+  .c3 {
+    font-size: 21px;
+  }
+
+  .btn-3 {
+    padding-left: 14rem;
+    padding-right: 14rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+  }
+
+  .button {
+    padding-left: 3.5rem;
+  }
+  .win {
+    padding-left: 20px;
+  }
+
+  .pic {
+   
+      width: 586px;
+      height: 51rem;
+      left: 2.5rem;
+      top: 7.5rem;
+  }
+  .foot {
+    font-size: 24px;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  .big {
+    font-size: 36px;
+  }
+
+  .bighead {
+    font-size: 36px;
+  }
+
+  .build {
+    font-size: 36px;
+  }
+
+  .container-3 {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 767px) and (max-device-width: 900px){
+  .win {
+    padding-left: 20px;
+  }
+  .c1 {
+    
+    font-size: 52px;
+    padding-left: 2.5rem;
+    margin-top: 1rem;
+
+}
+
+.c2 {
+
+    font-size: 21px;
+    line-height: 2rem;
+    padding-right: 15rem;
+    padding-left: 2.5rem;
+
+}
+.button {
+  padding-left: 2.5rem;
+
+}
+
+}
+
+@media only screen and (min-device-width: 767px) and (max-device-width: 875px){
+  .win {
+    padding-left: 0px;
+  }
+  .c1 {
+    
+    font-size: 52px;
+    padding-left: 2rem;
+    margin-top: 1rem;
+
+}
+
+.c2 {
+
+    font-size: 21px;
+    line-height: 2rem;
+    padding-right: 15rem;
+    padding-left: 2rem;
+
+}
+.button {
+  padding-left: 2rem;
+
+}
+.pic {
+
+    width: 578px;
+    height: 51rem;
+    left: 2.5rem;
+    top: 7.5rem;
+
+}
+
+}
+
+@media only screen and (min-device-width: 767px) and (max-device-width: 850px){
+  .win {
+    padding-left: 19px;
+  }
+  .c1 {
+    
+    font-size: 43px;
+    padding-left: 4rem;
+    margin-top: 1rem;
+
+}
+
+.c2 {
+
+    font-size: 21px;
+    line-height: 2rem;
+    padding-right: 15rem;
+    padding-left: 4rem;
+
+}
+.button {
+  padding-left: 4rem;
+
+}
+.pic {
+
+    width: 505px;
+    height: 51rem;
+    left: 2.5rem;
+    top: 7.5rem;
+
+}
+.btn-3 {
+  padding-left: 11rem;
+  padding-right: 11rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 10px;
+}
+}
+
+@media only screen and (min-device-width: 767px) and (max-device-width: 800px){
+  .win {
+    padding-left: 0px;
+  }
+  .c1 {
+    
+    font-size: 43px;
+    padding-left: 3rem;
+    margin-top: 1rem;
+
+}
+
+.c2 {
+
+    font-size: 21px;
+    line-height: 2rem;
+    padding-right: 2rem;
+    padding-left: 3rem;
+
+}
+.button {
+  padding-left: 3rem;
+
+}
+.pic {
+
+    width: 505px;
+    height: 51rem;
+    left: 2.5rem;
+    top: 7.5rem;
+
+}
+.btn-3 {
+  padding-left: 11rem;
+  padding-right: 11rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 10px;
+}
+}
+
+
+@media only screen and (min-device-width: 767px) and (max-device-width: 790px){
+  .win {
+    padding-left: 15px;
+  }
+  .c1 {
+    
+    font-size: 40px;
+    padding-left: 3.5rem;
+    margin-top: 1rem;
+
+}
+
+.c2 {
+
+    font-size: 21px;
+    line-height: 2rem;
+    padding-right: 2rem;
+    padding-left: 3.5rem;
+
+}
+.button {
+  padding-left: 3.5rem;
+
+}
+.pic {
+
+    width: 465px;
+    height: 51rem;
+    left: 2.5rem;
+    top: 7.5rem;
+
+}
+.btn-3 {
+  padding-left: 11rem;
+  padding-right: 8rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 10px;
+}
+}
+
+
+
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 766px) {
+
+  .navigation-inner {
+    display: none;
+  }
+
+  .fib {
+    font-size: 36px;
+  }
+
+  .container {
+    left: 5rem;
+    bottom: 65rem;
+
+  }
+
+  .first-ratings {
+    display: none;
+  }
+
+  .mark {
+
+    position: relative;
+    top: 12rem;
+
+
+  }
+
+  .hea {
+    margin-top: 25rem;
+    position: relative;
+    top: 9rem;
+  }
+
+  .links {
+    display: block;
+    position: relative;
+    top: 11rem;
+  }
+
+  .head1 {
+    padding-right: 20rem;
+  }
+
+  .head2 {
+    font-size: 27px;
+    line-height: 2rem;
+    padding-right: 15rem;
+  }
+
+  .hero {
+    width: 83%;
+  }
+
+  .view {
+    font-size: 22px;
+    padding-left: 12rem;
+  }
+
+  .btn-2 {
+    padding-left: 12rem;
+    padding-right: 12rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: -2rem;
+  }
+
+  .card {
+    font-size: 24px;
+  }
+
+  .temp {
+    font-size: 24px;
+    position: relative;
+    top: 3rem;
+    right: 20rem;
+  }
+
+  .sv {
+    position: relative;
+    top: 3rem;
+    right: 20rem;
+  }
+
+  .fib2 {
+    font-size: 36px;
+  }
+
+  .head-3 {
+    font-size: 64px;
+    padding-right: 11rem;
+  }
+
+  .three {
+    display: block;
+  }
+
+  .time {
+    font-size: 27px;
+    line-height: 2.5rem;
+    padding-right: 12rem;
+  }
+
+  .cus {
+    font-size: 27px;
+    line-height: 2.5rem;
+    padding-right: 12rem;
+  }
+
+  .all {
+    font-size: 27px;
+    line-height: 2.5rem;
+    padding-right: 12rem;
+
+  }
+
+  .container-1 {
+    display: block;
+    padding-bottom: 7rem;
+    padding-top: 1rem;
+  }
+
+  .c1 {
+    font-size: 61px;
+    margin-top: 3.5remx;
+  }
+
+  .c2 {
+    font-size: 21px;
+    line-height: 2rem;
+    padding-right: 4rem;
+  }
+
+  .c3 {
+    font-size: 31px;
+  }
+
+  .btn-3 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+  }
+
+  .pic {
+    width: 433px;
+    height: 34rem;
+    left: 3rem;
+    top: 7.5rem;
+  }
+
+  .foot {
+    font-size: 24px;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  .big {
+    font-size: 36px;
+  }
+
+  .bighead {
+    font-size: 36px;
+  }
+
+  .build {
+    font-size: 36px;
+  }
+
+  .container-2 {
+    width: 23rem;
+  }
+
+  .container-3 {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 743px){
+  .container {
+    left: 5rem;
+    bottom: 76rem;
+}
+}
+@media only screen and (min-device-width: 480px) and (max-device-width: 705px){
+  .btn-3 {
+    padding-left: 7rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+
+}
+.pic {
+  width: 396px;
+  height: 34rem;
+  left: 3rem;
+  top: 7.5rem;
+}
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 581px){
+  .btn-3 {
+    padding-left: 7rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+
+}
+.pic {
+  width: 270px;
+  height: 34rem;
+  left: 3rem;
+  top: 7.5rem;
+}
+.c3 {
+  font-size: 22px;
+}
+}
+@media only screen and (min-device-width: 480px) and (max-device-width: 677px) {
+  .container-2 {
+    display: none;
+  }
+
+  .head1 {
+    padding-right: 6rem;
+    font-size: 56px;
+  }
+
+  .container {
+    left: 4rem;
+    bottom: 61rem;
+  }
+
+  .c1 {
+    font-size: 50px;
+    margin-top: 1rem;
+  }
+
+  .c2 {
+    font-size: 21px;
+    padding-right: 1rem;
+  }
+
+  .btn-3 {
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+
+  .pic {
+
+    width: 342px;
+    height: 33rem;
+    left: 3rem;
+    top: 7.5rem;
+
+  }
+
+  .container-3 {
+    display: block;
+    background-color: white;
+    border: 1px solid rgba(31, 28, 28, 0.55);
+    width: 21rem;
+    border-radius: 5px;
+    margin-top: 5rem;
+    position: relative;
+    left: 7rem;
+  }
+
+.name {
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    color: #4a1bb6;
+    font-weight: 600;
+    font-size: 16px;
+    left: 1.5rem;
+    top: 2rem;
+}
+.rev-1 {
+  left: -6.5rem;
+}
+.money {
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  top: 3.5rem;
+  right: 6rem;
+
+
+}
+
+}
+@media only screen and (min-device-width: 480px) and (max-device-width: 650px) {
+
+
+  .hero {
+    width: 77%;
+  }
+
+  .navigation {
+    margin-left: 1.5rem;
+  }
+
+  .hea {
+    right: 2rem;
+  }
+
+  .head2 {
+    padding-right: 8rem
+  }
+
+  .btn-2 {
+    margin-left: -2rem;
+  }
+
+  .view {
+    padding-left: 10rem;
+  }
+
+  .mark {
+    right: 3rem;
+
+  }
+
+  .sv {
+    right: 19rem;
+  }
+
+  .card {
+    padding-left: 0rem;
+  }
+}
+
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 630px) {
+
+  .card {
+    font-size: 23px;
+  }
+
+  .sv {
+    right: 18.5rem;
+  }
+
+  .temp {
+    right: 19rem;
+  }
+}
+
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 582px){
+  .c3 {
+    font-size: 23px;
+  }
+  .pic {
+    width: 272px;
+    height: 33rem;
+    left: 3rem;
+    top: 7.5rem;
+}
+}
+@media only screen and (min-device-width: 480px) and (max-device-width: 570px) {
+  .container-2 {
+    display: none;
+  }
+
+  .head1 {
+    padding-right: 6rem;
+    font-size: 56px;
+  }
+
+  .container {
+    left: 1rem;
+    bottom: 61rem;
+  }
+
+  .container-1 {
+    margin-right: 5rem;
+  }
+
+  .container-3 {
+    width: 23rem;
+    left: 6rem;
+  }
+
+  .c1 {
+    font-size: 50px;
+    margin-top: 1rem;
+  }
+
+  .c2 {
+    font-size: 30px;
+    padding-right: 1rem;
+  }
+
+  .btn-3 {
+    padding-right: 5rem;
+    padding-left: 4rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+
+  .pic {
+    width: 342px;
+    height: 33rem;
+    left: 3rem;
+    top: 7.5rem;
+  }
+
+  .hea {
+    right: 3rem;
+  }
+
+  .btn-2 {
+    margin-left: -3rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+
+  .view {
+    padding-left: 6rem;
+  }
+
+  .temp {
+    font-size: 18px;
+    position: relative;
+    top: 3rem;
+    right: 16rem;
+  }
+
+  .card {
+    font-size: 18px;
+  }
+
+  .sv {
+    right: 15rem;
+  }
+
+  .c1 {
+    font-size: 39px;
+    margin-top: -1rem;
+  }
+
+  .c2 {
+    font-size: 21px;
+    line-height: 2rem;
+  }
+
+  .c3 {
+    font-size: 22px;
+  }
+
+  .pic {
+    width: 274px;
+    height: 33rem;
+    left: 3.5rem;
+  }
+
+  .btn-4 {
+    padding-left: 4.5rem;
+  }
+
+}
+
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 516px) {
+  .hero {
+    width: 73%;
+  }
+
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 500px) {
+  .container-2 {
+    display: none;
+  }
+
+  .head1 {
+    padding-right: 6rem;
+    font-size: 55px;
+  }
+
+  .head2 {
+    padding-right: 4rem;
+    font-size: 21px;
+  }
+
+  .container {
+    left: 0rem;
+    bottom: 63rem;
+  }
+
+  .container-1 {
+    margin-right: 5rem;
+  }
+
+  .container-3 {
+    width: 25rem;
+    left: 3rem;
+  }
+
+  .c1 {
+    font-size: 50px;
+    margin-top: 1rem;
+  }
+
+  .c2 {
+    font-size: 30px;
+    padding-right: 1rem;
+  }
+
+  .btn-3 {
+    padding-right: 4rem;
+    padding-left: 4rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+
+  .pic {
+    width: 342px;
+    height: 33rem;
+    left: 3rem;
+    top: 7.5rem;
+  }
+
+  .hea {
+    right: 3rem;
+  }
+
+  .btn-2 {
+    margin-left: -3rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    font-size: 20px;
+  }
+
+  .view {
+    padding-left: 6rem;
+  }
+
+  .temp {
+    font-size: 18px;
+    position: relative;
+    top: 3rem;
+    right: 16rem;
+  }
+
+  .card {
+    font-size: 18px;
+  }
+
+  .sv {
+    right: 15rem;
+  }
+
+  .c1 {
+    font-size: 39px;
+    margin-top: -1rem;
+  }
+
+  .c2 {
+    font-size: 21px;
+    line-height: 2rem;
+  }
+
+  .c3 {
+    font-size: 22px;
+  }
+
+  .pic {
+    width: 274px;
+    height: 33rem;
+    left: 3.5rem;
+    top: 4.5rem;
+  }
+
+  .btn-4 {
+    padding-left: 4.5rem;
+  }
+
+  .view {
+    font-size: 19px;
+  }
+
+  .card {
+    font-size: 15px;
+  }
+
+  .sv {
+    right: 13rem;
+  }
+
+  .temp {
+    font-size: 18px;
+    right: 14rem;
+  }
+
+  .fib2 {
+    padding-left: 3rem;
+  }
+
+  .head-3 {
+    font-size: 53px;
+    padding-left: 3rem;
+    padding-right: 2rem;
+  }
+
+  .three {
+    padding-left: 3rem;
+  }
+
+  .time {
+    font-size: 23px;
+    line-height: 2.5rem;
+    padding-right: 3rem;
+  }
+
+  .cus {
+    font-size: 23px;
+    line-height: 2.5rem;
+    padding-right: 3rem;
+  }
+
+  .all {
+    font-size: 23px;
+    line-height: 2.5rem;
+    padding-right: 3rem;
+  }
+
+  .container-1 {
+    margin-left: 3rem;
+    padding-bottom: 4rem;
+  }
+
+  .foot {
+    font-size: 16px;
+  }
+
+  .big {
+    font-size: 24px;
+  }
+
+  .f-one {
+    padding-left: 3rem;
+  }
+
+  .f-two {
+    padding-left: 0rem;
+  }
+
+  .f-three {
+    padding-left: 0rem;
+  }
+
+  .f-four {
+    padding-left: 0rem;
+  }
+
+  .f-five {
+    padding-left: 0rem;
+  }
+
+}
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 485px) {
+  .pic {
+    left: 2.5rem;
+  }
+}
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 479px) {
+
+  .navigation {
+    margin-left: 1.5rem;
+  }
+
+  .navigation-inner {
+    display: none;
+  }
+
+  .fib {
+    font-size: 36px;
+  }
+
+  .container {
+    left: 0rem;
+    bottom: 59rem;
+
+  }
+
+  .first-ratings {
+    display: none;
+  }
+
+  .mark {
+
+    position: relative;
+    top: 12rem;
+    padding-left: 3rem;
+
+
+  }
+
+  .hea {
+    margin-top: 25rem;
+    position: relative;
+    top: 9rem;
+  }
+
+  .links {
+    display: block;
+    position: relative;
+    top: 11rem;
+    padding-left: 3rem;
+  }
+
+  .head1 {
+    padding-right: 4rem;
+    font-size: 44px;
+    padding-left: 3rem;
+  }
+
+  .head2 {
+    font-size: 23px;
+    line-height: 2rem;
+    padding-right: 5rem;
+    margin-top: -2.5rem;
+    padding-left: 3rem;
+  }
+
+  .hero {
+    width: 70%;
+  }
+
+  .view {
+    font-size: 20px;
+    padding-left: 8rem;
+  }
+
+  .btn-2 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: -2rem;
+  }
+
+  .card {
+    font-size: 21px;
+    margin-right: -10rem;
+  }
+
+  .temp {
+    font-size: 21px;
+    position: relative;
+    top: 3rem;
+    right: 8rem;
+  }
+
+  .sv {
+    position: relative;
+    top: 3rem;
+    right: 8rem;
+  }
+
+  .fib2 {
+    font-size: 36px;
+    padding-left: 3rem;
+  }
+
+  .head-3 {
+    font-size: 48px;
+    padding-right: 3rem;
+    padding-left: 3.6rem;
+  }
+
+  .three {
+    display: block;
+    padding-left: 3rem;
+  }
+
+  .time {
+    font-size: 21px;
+    line-height: 2rem;
+    padding-right: 1rem;
+  }
+
+  .cus {
+    font-size: 21px;
+    line-height: 2rem;
+    padding-right: 1rem;
+  }
+
+  .all {
+    font-size: 21px;
+    line-height: 2rem;
+    padding-right: 1rem;
+
+  }
+
+  .container-1 {
+    display: block;
+    padding-bottom: 7rem;
+    padding-top: 1rem;
+    margin-left: 3rem;
+    margin-right: 2rem;
+  }
+
+  .c1 {
+    font-size: 44px;
+    margin-top: 1.5rem
+  }
+
+  .c2 {
+    font-size: 22px;
+    line-height: 2rem;
+    padding-right: 4rem;
+  }
+
+  .c3 {
+    font-size: 22px;
+  }
+
+  .btn-3 {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+  }
+
+  .pic {
+    width: 298px;
+    height: 34rem;
+    left: 3rem;
+    top: 7.5rem;
+  }
+
+  .foot {
+    font-size: 24px;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  .big {
+    font-size: 36px;
+  }
+
+  .bighead {
+    font-size: 36px;
+  }
+
+  .build {
+    font-size: 29px;
+  }
+
+  .container-2 {
+    display: none;
+  }
+
+  .foot {
+    font-size: 16px;
+  }
+
+  .big {
+    font-size: 24px;
+  }
+
+  .f-one {
+    padding-left: 3rem;
+  }
+
+  .f-two {
+    padding-left: 0rem;
+  }
+
+  .f-three {
+    padding-left: 0rem;
+  }
+
+  .f-four {
+    padding-left: 0rem;
+  }
+
+  .f-five {
+    padding-left: 0rem;
+  }
+
+  .container-3 {
+    display: block;
+    background-color: white;
+    border: 1px solid rgba(31, 28, 28, 0.55);
+    width: 23rem;
+    border-radius: 5px;
+    margin-top: 5rem;
+    position: relative;
+    left: 3rem;
+  }
+
+  .c-body {
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1.5rem;
+  }
+}
+
+.btn-4 {
+  background-color: white;
+  border: 0.5px solid rgba(31, 28, 28, 0.55);
+  border-radius: 2px;
+  color: #4a1bb6;
+  font-weight: 600;
+  font-size: 15px;
+  padding-left: 5.5rem;
+  padding-right: 5.5rem;
+  margin-bottom: 2rem;
+}
+
+.bighead {
+  font-size: 24px;
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 450px) {
+  .name {
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    color: #4a1bb6;
+    font-weight: 600;
+    font-size: 18px;
+    left: 1.5rem;
+    top: 2rem;
+  }
+
+  .btn-3 {
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+    border-radius: 10px;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+
+  .container-3 {
+    display: block;
+    background-color: white;
+    border: 1px solid rgba(31, 28, 28, 0.55);
+    width: 22rem;
+    border-radius: 5px;
+    margin-top: 5rem;
+    position: relative;
+    left: 3rem;
+  }
+
+  .pic {
+    width: 282px;
+    height: 34rem;
+    left: 3rem;
+    top: 7.5rem;
+  }
+
+  .hero {
+    width: 63%;
+  }
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 410px) {
+
+  .navigation {
+    margin-left: 1.5rem;
+  }
+
+  .navigation-inner {
+    display: none;
+  }
+
+  .fib {
+    font-size: 36px;
+  }
+
+  .container {
+    left: 0rem;
+    bottom: 59rem;
+
+  }
+
+  .first-ratings {
+    display: none;
+  }
+
+  .mark {
+
+    position: relative;
+    top: 12rem;
+    padding-left: 3rem;
+
+
+  }
+
+  .hea {
+    margin-top: 25rem;
+    position: relative;
+    top: 9rem;
+  }
+
+  .links {
+    display: block;
+    position: relative;
+    top: 11rem;
+    padding-left: 3rem;
+  }
+
+  .head1 {
+    padding-right: 4rem;
+    font-size: 44px;
+    padding-left: 3rem;
+  }
+
+  .head2 {
+    font-size: 20px;
+    line-height: 2rem;
+    padding-right: 5rem;
+    margin-top: -2.5rem;
+    padding-left: 3rem;
+  }
+
+  .hero {
+    width: 57%;
+  }
+
+  .view {
+    font-size: 20px;
+    padding-left: 6rem;
+  }
+
+  .btn-2 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    margin-top: -2rem;
+    font-size: 20px;
+  }
+
+  .card {
+    font-size: 21px;
+    margin-right: -10rem;
+  }
+
+  .temp {
+    font-size: 21px;
+    position: relative;
+    top: 3rem;
+    right: 8rem;
+  }
+
+  .sv {
+    position: relative;
+    top: 3rem;
+    right: 8rem;
+  }
+
+  .fib2 {
+    font-size: 36px;
+    padding-left: 3rem;
+  }
+
+  .head-3 {
+    font-size: 48px;
+    padding-right: 3rem;
+    padding-left: 3.6rem;
+  }
+
+  .three {
+    display: block;
+    padding-left: 3rem;
+  }
+
+  .time {
+    font-size: 21px;
+    line-height: 2rem;
+    padding-right: 1rem;
+  }
+
+  .cus {
+    font-size: 21px;
+    line-height: 2rem;
+    padding-right: 1rem;
+  }
+
+  .all {
+    font-size: 21px;
+    line-height: 2rem;
+    padding-right: 1rem;
+
+  }
+
+  .container-1 {
+    display: block;
+    padding-bottom: 5.6rem;
+    padding-top: 1rem;
+    margin-left: 3rem;
+    margin-right: 2rem;
+  }
+
+  .c1 {
+    font-size: 44px;
+    margin-top: 1.5rem
+  }
+
+  .c2 {
+    font-size: 22px;
+    line-height: 2rem;
+    padding-right: 4rem;
+  }
+
+  .c3 {
+    font-size: 18px;
+  }
+
+  .btn-3 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    border-radius: 10px;
+  }
+
+  .pic {
+    width: 242px;
+    height: 34rem;
+    left: 3rem;
+    top: 6rem;
+  }
+
+  .foot {
+    font-size: 24px;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  .big {
+    font-size: 36px;
+  }
+
+  .bighead {
+    font-size: 36px;
+  }
+
+  .build {
+    font-size: 29px;
+  }
+
+  .container-2 {
+    display: none;
+  }
+
+  .foot {
+    font-size: 16px;
+  }
+
+  .big {
+    font-size: 24px;
+  }
+
+  .f-one {
+    padding-left: 3rem;
+  }
+
+  .f-two {
+    padding-left: 0rem;
+  }
+
+  .f-three {
+    padding-left: 0rem;
+  }
+
+  .f-four {
+    padding-left: 0rem;
+  }
+
+  .f-five {
+    padding-left: 0rem;
+  }
+
+  .container-3 {
+    display: block;
+    background-color: white;
+    border: 1px solid rgba(31, 28, 28, 0.55);
+    width: 20rem;
+    border-radius: 5px;
+    margin-top: 5rem;
+    position: relative;
+    left: 3rem;
+  }
+
+  .c-body {
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1.5rem;
+  }
+
+
+.btn-4 {
+  background-color: white;
+  border: 0.5px solid rgba(31, 28, 28, 0.55);
+  border-radius: 2px;
+  color: #4a1bb6;
+  font-weight: 600;
+  font-size: 12px;
+  padding-left: 5.5rem;
+  padding-right: 5.5rem;
+  margin-bottom: 2rem;
+}
+
+.bighead {
+  font-size: 24px;
+}
+
+.money {
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  top: 3.5rem;
+  right: 4.5rem;
+  font-size: 11px;
+}
+
+.name {
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  color: #4a1bb6;
+  font-weight: 600;
+  font-size: 13px;
+  left: 1.5rem;
+  top: 2rem;
+}
+
+.rev-1 {
+  left: -4.5rem;
+}
+
+.foot {
+  font-size: 11px;
+  line-height: 1rem;
+  margin-right: 8rem;
+}
+
+.premade {
+  width: 16rem;
+}
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 370px){
+  .c2 {
+    font-size: 20px;
+    line-height: 2rem;
+    padding-right: 4rem;
+}
+.btn-3 {
+  padding-right: 2.5rem;
+  border-radius: 10px;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 450px) {
+  .name {
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    color: #4a1bb6;
+    font-weight: 600;
+    font-size: 18px;
+    left: 1.5rem;
+    top: 2rem;
+  }
+
+  .btn-3 {
+    padding-left: 4.5rem;
+    padding-right: 3.5rem;
+    border-radius: 10px;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+
+  .container-3 {
+    display: block;
+    background-color: white;
+    border: 1px solid rgba(31, 28, 28, 0.55);
+    width: 22rem;
+    border-radius: 5px;
+    margin-top: 5rem;
+    position: relative;
+    left: 3rem;
+  }
+
+  .pic {
+    width: 255px;
+    height: 34rem;
+    left: 3rem;
+    top: 6rem;
+}
+
+  .hero {
+    width: 63%;
+  }
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 402px) {
+  .pic {
+    width: 231px;
+    height: 34rem;
+    left: 3rem;
+    top: 6rem;
+}
+  .container-3 {
+    display: block;
+    background-color: white;
+    border: 1px solid rgba(31, 28, 28, 0.55);
+    width: 20rem;
+    border-radius: 5px;
+    margin-top: 5rem;
+    position: relative;
+    left: 3rem;
+  }
+
+  .btn-4 {
+    background-color: white;
+    border: 0.5px solid rgba(31, 28, 28, 0.55);
+    border-radius: 2px;
+    color: #4a1bb6;
+    font-weight: 600;
+    font-size: 11px;
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 365px) {
+  .hero {
+    width: 58%;
+
+  }
+
+  .btn-2 {
+    padding-left: 6rem;
+    padding-right: 5rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    margin-top: -2rem;
+    font-size: 17px;
+  }
+
+  .card {
+    font-size: 18px;
+    margin-right: -10rem;
+  }
+
+  .container {
+    left: -1rem;
+    bottom: 55rem;
+  }
+
+  .temp {
+    font-size: 18px;
+    position: relative;
+    top: 3rem;
+    right: 6rem;
+
+  }
+
+  .sv {
+    position: relative;
+    top: 3rem;
+    right: 6rem;
+  }
+
+  .btn-3 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 10px;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+  .pic {
+    width: 202px;
+    height: 34rem;
+    left: 2.5rem;
+    top: 6rem;
+}
+  .name {
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    color: #4a1bb6;
+    font-weight: 600;
+    font-size: 14px;
+    left: 1.5rem;
+    top: 2rem;
+}
+.container-3 {
+  display: block;
+  background-color: white;
+  border: 1px solid rgba(31, 28, 28, 0.55);
+  width: 18rem;
+  border-radius: 5px;
+  margin-top: 5rem;
+  position: relative;
+  left: 3rem;
+
+}
+.btn-4 {
+  background-color: white;
+  border: 0.5px solid rgba(31, 28, 28, 0.55);
+  border-radius: 2px;
+  color: #4a1bb6;
+  font-weight: 600;
+  font-size: 11px;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-bottom: 2rem;
+}
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 350px) {
+
+  .navigation {
+    margin-left: 0.5rem;
+    bottom: 1rem;
+  }
+
+  .navigation-inner {
+    display: none;
+  }
+
+  .fib {
+    font-size: 36px;
+  }
+
+  .container {
+    left: 0rem;
+    bottom: 47rem
+  }
+
+  .first-ratings {
+    display: none;
+  }
+
+  .mark {
+
+    position: relative;
+    top: 0rem;
+    padding-left: 3rem;
+    margin-bottom: -12rem;
+
+
+  }
+
+  .hea {
+    margin-top: 25rem;
+    position: relative;
+    top: -4rem;
+  }
+
+  .links {
+    display: block;
+    position: relative;
+    top: -1rem;
+    padding-left: 1rem;
+  }
+
+  .head1 {
+    padding-right: 4rem;
+    font-size: 50px;
+    padding-left: 1rem;
+  }
+
+  .head2 {
+    font-size: 14px;
+    line-height: 1.5rem;
+    padding-right: 5rem;
+    margin-top: -2.5rem;
+    padding-left: 1rem;
+  }
+
+  .hero {
+    width: 47%;
+  }
+
+  .view {
+    font-size: 20px;
+    padding-left: 6rem;
+  }
+
+  .btn-2 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    margin-top: -2rem;
+    font-size: 20px;
+  }
+
+  .card {
+    font-size: 14px;
+    margin-right: -10rem;
+  }
+
+  .temp {
+    font-size: 14px;
+    position: relative;
+    top: 3rem;
+    right: 3.5rem;
+  }
+
+  .sv {
+    position: relative;
+    top: 3rem;
+    right: 3.6rem;
+  }
+
+  .fib2 {
+    font-size: 34px;
+    padding-left: 1rem;
+  }
+
+  .head-3 {
+    font-size: 38px;
+    padding-right: 0rem;
+    padding-left: 1.6rem;
+  }
+
+  .three {
+    display: block;
+    padding-left: 2rem;
+  }
+
+  .time {
+    font-size: 21px;
+    line-height: 2rem;
+    padding-right: 1rem;
+  }
+
+  .cus {
+    font-size: 21px;
+    line-height: 2rem;
+    padding-right: 1rem;
+  }
+
+  .all {
+    font-size: 21px;
+    line-height: 2rem;
+    padding-right: 1rem;
+
+  }
+
+  .container-1 {
+    display: block;
+    padding-bottom: 3.6rem;
+    padding-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
+  }
+
+  .c1 {
+    font-size: 36px;
+    margin-top: 1.5rem;
+    padding-left: 1rem;
+
+  }
+
+  .c2 {
+    font-size: 14px;
+    line-height: 2rem;
+    padding-right: 0rem;
+    padding-left: 1rem;
+  }
+
+  .c3 {
+    font-size: 18px;
+  }
+
+  .btn-3 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    border-radius: 10px;
+  }
+
+  .pic {
+    width: 218px;
+    height: 29rem;
+    left: 2rem;
+    top: 4rem;
+  }
+
+  .foot {
+    font-size: 24px;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  .big {
+    font-size: 36px;
+  }
+
+  .bighead {
+    font-size: 36px;
+  }
+
+  .build {
+    font-size: 29px;
+  }
+
+  .container-2 {
+    display: none;
+  }
+
+  .foot {
+    font-size: 16px;
+  }
+
+  .big {
+    font-size: 24px;
+  }
+
+  .f-one {
+    padding-left: 3rem;
+  }
+
+  .f-two {
+    padding-left: 0rem;
+  }
+
+  .f-three {
+    padding-left: 0rem;
+  }
+
+  .f-four {
+    padding-left: 0rem;
+  }
+
+  .f-five {
+    padding-left: 0rem;
+  }
+
+  .container-3 {
+    display: block;
+    background-color: white;
+    border: 1px solid rgba(31, 28, 28, 0.55);
+    width: 17rem;
+    border-radius: 5px;
+    margin-top: 5rem;
+    position: relative;
+    left: 2rem;
+  }
+
+  .c-body {
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1.5rem;
+  }
+
+
+.btn-4 {
+  background-color: white;
+  border: 0.5px solid rgba(31, 28, 28, 0.55);
+  border-radius: 2px;
+  color: #4a1bb6;
+  font-weight: 600;
+  font-size: 11px;
+  padding-left: 5.5rem;
+  padding-right: 5.5rem;
+  margin-bottom: 2rem;
+
+
+}
+
+.bighead {
+  font-size: 24px;
+}
+
+.money {
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  top: 3.5rem;
+  right: 4rem;
+  font-size: 11px;
+}
+
+.name {
+  font-family: 'Inter', sans-serif;
+  position: relative;
+  color: #4a1bb6;
+  font-weight: 600;
+  font-size: 12px;
+  left: 1.5rem;
+  top: 2rem;
+}
+
+.rev-1 {
+  left: -4rem;
+}
+
+.foot {
+  font-size: 17px;
+  line-height: 2rem;
+  margin-right: 8rem;
+}
+
+.premade {
+  width: 16rem;
+}
+
+.button {
+        padding-left: 1rem;
+       } 
+      }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 350px) {
+  .btn-2 {
+    padding-left: 5rem;
+    padding-right: 6rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    margin-top: -2rem;
+    font-size: 20px;
+  }
+
+  .sv {
+    position: relative;
+    top: 3rem;
+    right: 3rem;
+  }
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 328px) {
+    .c3 {
+      font-size: 17px;
+    }
+
+    .pic {
+      width: 222px;
+      height: 29rem;
+      left: 1rem;
+      top: 4rem;
+    }
+
+    .user {
+      padding-left: 1rem;
+    }
+
+    .container {
+      bottom: 49rem;
+    }
+  }
+
+  .btn-2 {
+    font-size: 16px;
+  }
+
+  .view {
+    font-size: 14px;
+    padding-left: 5rem;
+  }
+
+  .btn-3 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    border-radius: 10px;
+  }
+
+  .pic {
+    width: 210px;
+  }
+}
+
